@@ -2,3 +2,5 @@
 *.tgz
 *.txt
 *.pkl
+.gitignore
+src/*
