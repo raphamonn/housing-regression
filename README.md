@@ -32,6 +32,8 @@ O projeto segue um pipeline completo de Machine Learning:
    - Separação treino/teste
    - Cross-validation
    - Avaliação com métricas de regressão
+   - Uso de RandomSearch e GridSearch para determinar a melhor combinação de parâmetros
+   - Melhor modelo *RandomSearch* obteve **RMSE** de aproximadamente **49.313** (cross-validation)
 
 ---
 
@@ -50,8 +52,6 @@ O projeto segue um pipeline completo de Machine Learning:
 O modelo foi avaliado utilizando:
 
 - RMSE (Root Mean Squared Error)
-- MAE (Mean Absolute Error)
-- R² Score
 
 ---
 
