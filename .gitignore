@@ -3,4 +3,4 @@
 *.txt
 *.pkl
 .gitignore
-src/*
+train.py
