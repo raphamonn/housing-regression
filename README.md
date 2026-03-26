@@ -63,3 +63,20 @@ O modelo foi avaliado utilizando:
 ---
 
 ## 📁 Estrutura do projeto
+
+```text
+housing-regression/
+├── datasets/
+    ├── housing/            # local de armazenamento de dados crus
+    └── prepared/           # pasta que seria usada para salvar data pós processamento
+├── imgs/                   # gráficos e imagens geradas
+├── models/                 # Local onde os modelos são salvos como arquivos .pkl 
+├── src/                    # Código-fonte auxiliar e scripts Python
+├── notebooks/              # Notebooks Jupyter com as análises e experimentos                    
+├── README.md               # Documentação do projeto
+└── requirements.txt        # Lista de dependências e bibliotecas
+```
+---
+## 🧠 Aprendizados
+
+
