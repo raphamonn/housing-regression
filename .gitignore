@@ -1,4 +1,5 @@
 *.csv
 *.tgz
-*.txt
 *.pkl
+.gitignore
+
