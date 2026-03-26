@@ -9,7 +9,10 @@ O objetivo deste projeto é construir um modelo capaz de prever o preço de imó
 Este projeto foi desenvolvido com foco em prática de conceitos de Data Science e Machine Learning aplicados a problemas reais.
 
 Pequeno spoiler do resultado:
-![Gráfico exibindo um ótimo resultado, onde o R2 está bem próximo de 1](img/result.png)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/raphamonn/housing-regression/main/imgs/result.png" alt="Gráfico de Resultados" width="600">
+</p>
 
 ---
 
