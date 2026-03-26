@@ -29,5 +29,3 @@ plt.ylabel('Preço Real', fontsize=12)
 plt.savefig('../imgs/result.png')
 
 plt.show()
-
-# %%
