@@ -1,4 +1,3 @@
-
 import joblib
 from data_preparation import load_data, split_data
 import matplotlib.pyplot as plt
@@ -9,9 +8,7 @@ df = load_data()
 X_train, X_test, y_train, y_test = split_data(df)
 y_pred = model.predict(X_test)
 
-# %%
 results = display_results(y_test, y_pred)
-# %%
 plt.figure(figsize=(10, 6))
 
 plt.scatter(x=y_test, y=y_pred, alpha=0.5,

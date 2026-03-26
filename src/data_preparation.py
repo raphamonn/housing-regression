@@ -1,4 +1,3 @@
-# %%
 import os
 import sys
 
@@ -58,5 +57,3 @@ def build_pipeline(X_train):
     ], verbose_feature_names_out=False, )
 
     return preprocess
-
-# %%

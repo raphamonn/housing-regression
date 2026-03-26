@@ -14,7 +14,8 @@ class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
         add_bedrooms_per_room (bool): Indica se a feature 'bedrooms_per_room' deve ser adicionada.
                                       Útil para testar se essa feature melhora o modelo no GridSearchCV.
     """
-   def __init__(self, add_bedrooms_per_room=True):
+
+    def __init__(self, add_bedrooms_per_room=True):
         self.add_bedrooms_per_room = add_bedrooms_per_room
 
     def fit(self, X, y=None):
