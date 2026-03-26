@@ -43,7 +43,7 @@ def build_pipeline(X_train):
     cat_attribs = X_train.select_dtypes(include='object').columns
 
     cat_pipeline = Pipeline([
-        ('onehot', OneHotEncoder(sparse_output=False))
+        ('onehot', OneHotEncoder(sparse_output=False, handle_unknown='ignore'))
     ])
 
     num_pipeline = Pipeline([
@@ -59,26 +59,4 @@ def build_pipeline(X_train):
 
     return preprocess
 
-
-# # %%
-# df = load_data()
-# X_train, X_test, y_train, y_test = split_data(df)
-# preprocess = build_pipeline(X_train)
-# # %%
-# preprocess.fit(X_train)
-# preprocess.get_feature_names_out()
-# # %%
-# X_test_processed = preprocess.transform(X_test)
-
-# extra_attribs = ['rooms_per_household',
-#                  'population_per_household', 'bedrooms_per_room']
-# onehot_encode_attribs = list(preprocess.named_transformers_[
-#                              'cat']['onehot'].categories_[0])
-# cols = onehot_encode_attribs + num_attribs.to_list() + extra_attribs
-
-
-# X_train_processed = pd.DataFrame(X_train_processed, columns=cols)
-# X_test_processed = pd.DataFrame(X_test_processed, columns=cols)
-# # %%
-# preprocess.get_feature_names_out()
-# # %%
+# %%

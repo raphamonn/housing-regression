@@ -1,6 +1,5 @@
 *.csv
 *.tgz
-*.txt
 *.pkl
 .gitignore
-train.py
+
