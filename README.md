@@ -67,8 +67,7 @@ O modelo foi avaliado utilizando:
 ```text
 housing-regression/
 ├── datasets/
-    ├── housing/            # local de armazenamento de dados crus
-    └── prepared/           # pasta que seria usada para salvar data pós processamento
+    └──  housing/            # local de armazenamento de dados crus     
 ├── imgs/                   # gráficos e imagens geradas
 ├── models/                 # Local onde os modelos são salvos como arquivos .pkl 
 ├── src/                    # Código-fonte auxiliar e scripts Python
