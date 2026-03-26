@@ -8,6 +8,9 @@ O objetivo deste projeto é construir um modelo capaz de prever o preço de imó
 
 Este projeto foi desenvolvido com foco em prática de conceitos de Data Science e Machine Learning aplicados a problemas reais.
 
+Pequeno spoiler do resultado:
+![Gráfico exibindo um ótimo resultado, onde o R2 está bem próximo de 1](img/result.png)
+
 ---
 
 ## 🧠 Abordagem
@@ -50,9 +53,10 @@ O projeto segue um pipeline completo de Machine Learning:
 ## 📊 Métricas de avaliação
 
 O modelo foi avaliado utilizando:
-
-- RMSE (Root Mean Squared Error)
-
+- RMSE *(Root Mean Squared Error)*: **47517.1043**
+- R² *(Coeficiente de determinação)* : **0.8267**
+- MSE *(Mean Square Error)* : **2257875197.1973**
+- MAE *(Mean Absolute Error)*: **31469.6485**
 ---
 
 ## 📁 Estrutura do projeto
