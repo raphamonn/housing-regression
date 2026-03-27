@@ -3,6 +3,9 @@ Módulo de utilitários para o projeto California Housing.
 Contém transformadores customizados para o pipeline de dados e funções auxiliares para avaliação de métricas.
 """
 from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.metrics import (mean_squared_error,
+                             root_mean_squared_error,
+                             mean_absolute_error, r2_score)
 
 
 class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
@@ -51,7 +54,6 @@ def display_results(y_test, y_pred):
         Returns:
             dict: Um dicionário contendo as métricas calculadas ('mse', 'rmse', 'mae', 'r2').
     """
-
     mse = mean_squared_error(y_test, y_pred)
     rmse = root_mean_squared_error(y_test, y_pred)
     mae = mean_absolute_error(y_test, y_pred)
