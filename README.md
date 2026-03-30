@@ -56,10 +56,10 @@ O projeto segue um pipeline completo de Machine Learning:
 ## 📊 Métricas de avaliação
 
 O modelo foi avaliado utilizando:
-- RMSE *(Root Mean Squared Error)*: **47517.1043**
-- R² *(Coeficiente de determinação)* : **0.8267**
-- MSE *(Mean Square Error)* : **2257875197.1973**
-- MAE *(Mean Absolute Error)*: **31469.6485**
+- RMSE *(Root Mean Squared Error)*: **47517.1043** | **42841.7729** (Removendo Outliers)
+- R² *(Coeficiente de determinação)* : **0.8267** | **0.8006** (Removendo Outliers)
+- MSE *(Mean Square Error)* : **2257875197.1973** | **1835417509.4771** (Removendo Outliers)
+- MAE *(Mean Absolute Error)*: **31469.6485** | **28816.9436** (Removendo Outliers)
 ---
 
 ## 📁 Estrutura do projeto
