@@ -62,7 +62,7 @@ O modelo foi avaliado utilizando:
 - MAE *(Mean Absolute Error)*: **31469.6485** | **28816.9436** (Removendo Outliers)
 ---
 
-## 📁 Estrutura do projeto
+## 📁 Estrutura do projetoE
 
 ```text
 housing-regression/
@@ -78,4 +78,20 @@ housing-regression/
 ---
 ## 🧠 Aprendizados
 
+O projeto foi desenvolvido com objetivo de aprendizado, mas estruturado como um caso de negócio real.
+Supondo uma empresa fictícia chamada California Houses, que atua no mercado imobiliário, existe a necessidade de melhorar o processo de precificação de imóveis.
+Atualmente, os preços são definidos com base na experiência dos corretores e comparações manuais, o que gera inconsistências, erros de avaliação e perda de oportunidades de negócio.
+Então a ideia foi criar um modelo que fosse o mais fidedigno ao que já temos, mas entender como isso pode auxiliar nas ofertas.
+
+
+### Então, agora muito mais aprofundado, quero responder algumas perguntas:
+- Qual é o risco do modelo estar performando mal;
+```text
+Se tratando da precificação de imóveis, o problema é bem definido, 
+```
+
+- Quais imóveis estão subvalorizados (são oportunidades de compra);
+- Quais características mais impactaram a precificação;
+- Precificação assistida: dá pra usar o modelo como um "miniapp" com inputação de dados;
+- Em quais faixa o modelo de preço performa melhor ? Imóveis mais caros mais baratos ou medianos? 
 
